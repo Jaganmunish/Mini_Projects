@@ -30,8 +30,25 @@ dice_roll()
 
 #*****************************************************************************
 
+#Guess the Number
 
-    
-    
+guess = str(random.randint(0,9))    
+
+a = str(input("Enter the number:"))
+
+for i in guess:
+    if i == a:
+        print ("You're Right")
+    elif i != a:
+        print ("You're Wrong")
+    else:
+        print ("You have Entered Number is Out of range")
+
+
+        
+        
+        
+        
+
     
     

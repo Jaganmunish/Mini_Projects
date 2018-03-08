@@ -44,11 +44,4 @@ for i in guess:
     else:
         print ("You have Entered Number is Out of range")
 
-
-        
-        
-        
-        
-
-    
-    
+# Use Nested Looping 

@@ -37,11 +37,13 @@ guess = str(random.randint(0,9))
 a = str(input("Enter the number:"))
 
 for i in guess:
+    for x in range(6):
+        if x > 6:
+            print ("The Number is out of Range")
+            break
     if i == a:
         print ("You're Right")
-    elif i != a:
-        print ("You're Wrong")
-    else:
+    elif i >= a:
         print ("You have Entered Number is Out of range")
-
-# Use Nested Looping 
+    else:
+        print ("You're Wrong")
